@@ -2,7 +2,7 @@
 
 **Turn your GitHub Profile into a living, breathing universe.**
 
-RepoVerse is an AI-powered cosmic engine that visualizes your code repositories as planets orbiting a central sun (you!). It generates an animated SVG that you can embed directly into your GitHub Profile README.
+RepoVerse is a cosmic engine that visualizes your code repositories as planets orbiting a central sun (you!). It generates an animated SVG that you can embed directly into your GitHub Profile README.
 
 ![Preview](./public/universe.svg)
 
