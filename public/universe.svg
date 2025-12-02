@@ -402,12 +402,12 @@
       </a>
     
 
-      <!-- Planet: nimaldanyathk -->
-      <a href="https://github.com/nimaldanyathk/nimaldanyathk" target="_blank" style="cursor: pointer;">
+      <!-- Planet: repo-verse -->
+      <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-5" cx="30%" cy="30%" r="70%">
-            <stop offset="0%" stop-color="#808080" stop-opacity="1" />
-            <stop offset="50%" stop-color="#808080" stop-opacity="0.8" />
+            <stop offset="0%" stop-color="#3178C6" stop-opacity="1" />
+            <stop offset="50%" stop-color="#3178C6" stop-opacity="0.8" />
             <stop offset="100%" stop-color="#000" stop-opacity="1" />
           </radialGradient>
         </defs>
@@ -427,12 +427,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="820" cy="300" r="44.55270432228446" fill="url(#planetGrad-5)">
-               <title>nimaldanyathk (null)</title>
+            <circle cx="820" cy="300" r="35.54535065087626" fill="url(#planetGrad-5)">
+               <title>repo-verse (TypeScript)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="820" cy="300" r="44.55270432228446" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
+            <circle cx="820" cy="300" r="35.54535065087626" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -441,12 +441,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="820" cy="300" r="53.463245186741354" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="820" cy="300" r="42.654420781051506" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="820" cy="300" r="54.55270432228446" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="820" cy="300" r="45.54535065087626" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.5;0.6;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 820 300" to="360 820 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -462,8 +462,8 @@
                   dur="16.129032258064516s" 
                   repeatCount="indefinite" 
               />
-              <text x="820" y="359.55270432228446" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                nimaldanyathk
+              <text x="820" y="350.54535065087623" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                repo-verse
               </text>
             </g>
           </g>
@@ -471,8 +471,8 @@
       </a>
     
 
-      <!-- Planet: E-HealthCare-Management-System -->
-      <a href="https://github.com/nimaldanyathk/E-HealthCare-Management-System" target="_blank" style="cursor: pointer;">
+      <!-- Planet: nimaldanyathk -->
+      <a href="https://github.com/nimaldanyathk/nimaldanyathk" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-6" cx="30%" cy="30%" r="70%">
             <stop offset="0%" stop-color="#808080" stop-opacity="1" />
@@ -496,12 +496,12 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="880" cy="300" r="42.339755297473175" fill="url(#planetGrad-6)">
-               <title>E-HealthCare-Management-System (null)</title>
+            <circle cx="880" cy="300" r="44.55270432228446" fill="url(#planetGrad-6)">
+               <title>nimaldanyathk (null)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="880" cy="300" r="42.339755297473175" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
+            <circle cx="880" cy="300" r="44.55270432228446" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
@@ -510,12 +510,12 @@
             
             
             <!-- Mood Glow -->
-            <circle cx="880" cy="300" r="50.807706356967806" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="880" cy="300" r="53.463245186741354" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="880" cy="300" r="52.339755297473175" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="880" cy="300" r="54.55270432228446" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.6;0.7;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 880 300" to="360 880 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -531,8 +531,8 @@
                   dur="14.705882352941176s" 
                   repeatCount="indefinite" 
               />
-              <text x="880" y="357.3397552974732" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                E-HealthCare-Management-System
+              <text x="880" y="359.55270432228446" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                nimaldanyathk
               </text>
             </g>
           </g>
@@ -540,8 +540,8 @@
       </a>
     
 
-      <!-- Planet: react-bits -->
-      <a href="https://github.com/nimaldanyathk/react-bits" target="_blank" style="cursor: pointer;">
+      <!-- Planet: E-HealthCare-Management-System -->
+      <a href="https://github.com/nimaldanyathk/E-HealthCare-Management-System" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-7" cx="30%" cy="30%" r="70%">
             <stop offset="0%" stop-color="#808080" stop-opacity="1" />
@@ -565,28 +565,26 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="940" cy="300" r="50.41211960114672" fill="url(#planetGrad-7)">
-               <title>react-bits (null)</title>
+            <circle cx="940" cy="300" r="42.339755297473175" fill="url(#planetGrad-7)">
+               <title>E-HealthCare-Management-System (null)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="940" cy="300" r="50.41211960114672" fill="none" stroke="#FF4500" stroke-width="2" opacity="0.3">
+            <circle cx="940" cy="300" r="42.339755297473175" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
             
             
             
-               <path d="M935 295 L945 305 M942 292 L938 302" stroke="rgba(0,0,0,0.3)" stroke-width="1" />
-            
             
             <!-- Mood Glow -->
-            <circle cx="940" cy="300" r="60.49454352137606" fill="none" stroke="#FF4500" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="940" cy="300" r="50.807706356967806" fill="none" stroke="#FF00E6" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="940" cy="300" r="60.41211960114672" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="940" cy="300" r="52.339755297473175" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.7;0.8;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 940 300" to="360 940 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -602,8 +600,8 @@
                   dur="13.513513513513514s" 
                   repeatCount="indefinite" 
               />
-              <text x="940" y="365.41211960114674" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                react-bits
+              <text x="940" y="357.3397552974732" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                E-HealthCare-Management-System
               </text>
             </g>
           </g>
@@ -611,12 +609,12 @@
       </a>
     
 
-      <!-- Planet: repo-verse -->
-      <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank" style="cursor: pointer;">
+      <!-- Planet: react-bits -->
+      <a href="https://github.com/nimaldanyathk/react-bits" target="_blank" style="cursor: pointer;">
         <defs>
           <radialGradient id="planetGrad-8" cx="30%" cy="30%" r="70%">
-            <stop offset="0%" stop-color="#3178C6" stop-opacity="1" />
-            <stop offset="50%" stop-color="#3178C6" stop-opacity="0.8" />
+            <stop offset="0%" stop-color="#808080" stop-opacity="1" />
+            <stop offset="50%" stop-color="#808080" stop-opacity="0.8" />
             <stop offset="100%" stop-color="#000" stop-opacity="1" />
           </radialGradient>
         </defs>
@@ -636,26 +634,28 @@
             />
             
             <!-- Planet Body (3D Effect) -->
-            <circle cx="1000" cy="300" r="35.44248343044036" fill="url(#planetGrad-8)">
-               <title>repo-verse (TypeScript)</title>
+            <circle cx="1000" cy="300" r="50.41211960114672" fill="url(#planetGrad-8)">
+               <title>react-bits (null)</title>
             </circle>
             
             <!-- Inner Rim Light (Atmosphere) -->
-            <circle cx="1000" cy="300" r="35.44248343044036" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3">
+            <circle cx="1000" cy="300" r="50.41211960114672" fill="none" stroke="#FF4500" stroke-width="2" opacity="0.3">
             </circle>
             
             <!-- Texture/Overlay -->
             
             
             
+               <path d="M995 295 L1005 305 M1002 292 L998 302" stroke="rgba(0,0,0,0.3)" stroke-width="1" />
+            
             
             <!-- Mood Glow -->
-            <circle cx="1000" cy="300" r="42.53098011652843" fill="none" stroke="#00FF94" stroke-width="1" opacity="0.4" filter="url(#glow)">
+            <circle cx="1000" cy="300" r="60.49454352137606" fill="none" stroke="#FF4500" stroke-width="1" opacity="0.4" filter="url(#glow)">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
             </circle>
 
             <!-- Active Indicator (Ring when HUD is showing this planet) -->
-            <circle cx="1000" cy="300" r="45.44248343044036" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
+            <circle cx="1000" cy="300" r="60.41211960114672" fill="none" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0">
                <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.8;0.9;1" dur="40s" repeatCount="indefinite" />
                <animateTransform attributeName="transform" type="rotate" from="0 1000 300" to="360 1000 300" dur="10s" repeatCount="indefinite" />
             </circle>
@@ -671,8 +671,8 @@
                   dur="12.5s" 
                   repeatCount="indefinite" 
               />
-              <text x="1000" y="350.44248343044035" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
-                repo-verse
+              <text x="1000" y="365.41211960114674" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" style="text-shadow: 0px 0px 4px black;">
+                react-bits
               </text>
             </g>
           </g>
@@ -839,12 +839,12 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.5; 0.501; 0.599; 0.6; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> nimaldanyathk</text>
-        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 3584kb</text>
+        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 1</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 178kb</text>
         
         <!-- Progress Bar -->
-        <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
+        <rect x="20" y="565" width="0" height="2" fill="#00FF94">
             <animate attributeName="width" values="0;200" begin="20s" dur="4s" fill="freeze" />
         </rect>
       </g>
@@ -855,9 +855,9 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6; 0.601; 0.699; 0.7; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> E-HealthCare-Management-System</text>
+        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> nimaldanyathk</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 1714kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 3584kb</text>
         
         <!-- Progress Bar -->
         <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
@@ -871,12 +871,12 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.7; 0.701; 0.799; 0.8; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#FF4500" font-family="Courier New, monospace" font-size="16" font-weight="bold">> react-bits</text>
+        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> E-HealthCare-Management-System</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: STRESSED | SIZE: 25270kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 1714kb</text>
         
         <!-- Progress Bar -->
-        <rect x="20" y="565" width="0" height="2" fill="#FF4500">
+        <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
             <animate attributeName="width" values="0;200" begin="28s" dur="4s" fill="freeze" />
         </rect>
       </g>
@@ -887,12 +887,12 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.8; 0.801; 0.899; 0.9; 1" dur="40s" repeatCount="indefinite" />
 
         <!-- Panel Content -->
-        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
-        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 172kb</text>
+        <text x="20" y="520" fill="#FF4500" font-family="Courier New, monospace" font-size="16" font-weight="bold">> react-bits</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: STRESSED | SIZE: 25270kb</text>
         
         <!-- Progress Bar -->
-        <rect x="20" y="565" width="0" height="2" fill="#00FF94">
+        <rect x="20" y="565" width="0" height="2" fill="#FF4500">
             <animate attributeName="width" values="0;200" begin="32s" dur="4s" fill="freeze" />
         </rect>
       </g>
