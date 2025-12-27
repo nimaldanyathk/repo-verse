@@ -24,27 +24,27 @@
 
   <!-- User Info Header -->
   <g transform="translate(20, 20)">
-     <image href="https://avatars.githubusercontent.com/u/1024025?v=4" x="0" y="0" width="40" height="40" clip-path="circle(20px at 20px 20px)" />
-     <text x="50" y="18" fill="#fff" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold">Linus Torvalds</text>
-     <text x="50" y="36" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="12">@torvalds • 9 Repositories • 268293 Followers</text>
+     <image href="https://avatars.githubusercontent.com/u/191676132?v=4" x="0" y="0" width="40" height="40" clip-path="circle(20px at 20px 20px)" />
+     <text x="50" y="18" fill="#fff" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold">Nimal Danyath K</text>
+     <text x="50" y="36" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="12">@nimaldanyathk • 13 Repositories • 11 Followers</text>
   </g>
 
   <!-- Cards Container -->
   
-            <a href="https://github.com/torvalds/linux" target="_blank">
+            <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank">
                 <g class="card" transform="translate(20, 70)">
                     <rect width="128.75" height="100" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
                     
                     <!-- Language Dot -->
-                    <circle cx="15" cy="20" r="4" fill="#A8B9CC" />
+                    <circle cx="15" cy="20" r="4" fill="#3178C6" />
                     
                     <!-- Name -->
-                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">linux</text>
+                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">repo-verse</text>
                     
                     <!-- Desc -->
                     <foreignObject x="10" y="35" width="108.75" height="40">
                         <div xmlns="http://www.w3.org/1999/xhtml" style="color: #aaa; font-family: Segoe UI, sans-serif; font-size: 10px; line-height: 1.2; overflow: hidden;">
-                            Linux kernel source tree
+                            Generate a dynamic, animated SVG solar system of y...
                         </div>
                     </foreignObject>
 
@@ -53,16 +53,16 @@
                         <!-- Stars -->
                         <path d="M3 0h2l1 3 3 1-3 1-1 3-1-3-3-1 3-1z" fill="#F1C40F" transform="scale(0.8) translate(0, 2)"/> 
                         <!-- Simple Star Icon approx -->
-                        <text x="12" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">211881</text>
+                        <text x="12" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">6</text>
 
                         <!-- Forks -->
-                        <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 59622</text>
+                        <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 4</text>
                     </g>
                 </g>
             </a>
         
 
-            <a href="https://github.com/torvalds/uemacs" target="_blank">
+            <a href="https://github.com/nimaldanyathk/Semicolon-Embedded-C-Project" target="_blank">
                 <g class="card" transform="translate(163.75, 70)">
                     <rect width="128.75" height="100" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
                     
@@ -70,12 +70,12 @@
                     <circle cx="15" cy="20" r="4" fill="#A8B9CC" />
                     
                     <!-- Name -->
-                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">uemacs</text>
+                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">Semicolon-Embedded-C-Project</text>
                     
                     <!-- Desc -->
                     <foreignObject x="10" y="35" width="108.75" height="40">
                         <div xmlns="http://www.w3.org/1999/xhtml" style="color: #aaa; font-family: Segoe UI, sans-serif; font-size: 10px; line-height: 1.2; overflow: hidden;">
-                            Random version of microemacs with my private modif...
+                            A C programming–based assistive device for the vis...
                         </div>
                     </foreignObject>
 
@@ -84,29 +84,29 @@
                         <!-- Stars -->
                         <path d="M3 0h2l1 3 3 1-3 1-1 3-1-3-3-1 3-1z" fill="#F1C40F" transform="scale(0.8) translate(0, 2)"/> 
                         <!-- Simple Star Icon approx -->
-                        <text x="12" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">1787</text>
+                        <text x="12" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">6</text>
 
                         <!-- Forks -->
-                        <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 287</text>
+                        <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 0</text>
                     </g>
                 </g>
             </a>
         
 
-            <a href="https://github.com/torvalds/GuitarPedal" target="_blank">
+            <a href="https://github.com/nimaldanyathk/sparkd" target="_blank">
                 <g class="card" transform="translate(307.5, 70)">
                     <rect width="128.75" height="100" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
                     
                     <!-- Language Dot -->
-                    <circle cx="15" cy="20" r="4" fill="#999" />
+                    <circle cx="15" cy="20" r="4" fill="#F7DF1E" />
                     
                     <!-- Name -->
-                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">GuitarPedal</text>
+                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">sparkd</text>
                     
                     <!-- Desc -->
                     <foreignObject x="10" y="35" width="108.75" height="40">
                         <div xmlns="http://www.w3.org/1999/xhtml" style="color: #aaa; font-family: Segoe UI, sans-serif; font-size: 10px; line-height: 1.2; overflow: hidden;">
-                            Linus learns analog circuits
+                            No description provided.
                         </div>
                     </foreignObject>
 
@@ -115,29 +115,29 @@
                         <!-- Stars -->
                         <path d="M3 0h2l1 3 3 1-3 1-1 3-1-3-3-1 3-1z" fill="#F1C40F" transform="scale(0.8) translate(0, 2)"/> 
                         <!-- Simple Star Icon approx -->
-                        <text x="12" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">1432</text>
+                        <text x="12" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">5</text>
 
                         <!-- Forks -->
-                        <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 43</text>
+                        <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 1</text>
                     </g>
                 </g>
             </a>
         
 
-            <a href="https://github.com/torvalds/test-tlb" target="_blank">
+            <a href="https://github.com/nimaldanyathk/TheInspirationalBoat" target="_blank">
                 <g class="card" transform="translate(451.25, 70)">
                     <rect width="128.75" height="100" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
                     
                     <!-- Language Dot -->
-                    <circle cx="15" cy="20" r="4" fill="#A8B9CC" />
+                    <circle cx="15" cy="20" r="4" fill="#E34F26" />
                     
                     <!-- Name -->
-                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">test-tlb</text>
+                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">TheInspirationalBoat</text>
                     
                     <!-- Desc -->
                     <foreignObject x="10" y="35" width="108.75" height="40">
                         <div xmlns="http://www.w3.org/1999/xhtml" style="color: #aaa; font-family: Segoe UI, sans-serif; font-size: 10px; line-height: 1.2; overflow: hidden;">
-                            Stupid memory latency and TLB tester
+                            No description provided.
                         </div>
                     </foreignObject>
 
@@ -146,10 +146,10 @@
                         <!-- Stars -->
                         <path d="M3 0h2l1 3 3 1-3 1-1 3-1-3-3-1 3-1z" fill="#F1C40F" transform="scale(0.8) translate(0, 2)"/> 
                         <!-- Simple Star Icon approx -->
-                        <text x="12" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">914</text>
+                        <text x="12" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">2</text>
 
                         <!-- Forks -->
-                        <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 214</text>
+                        <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 0</text>
                     </g>
                 </g>
             </a>
