@@ -42,4 +42,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update universe svg [skip ci]"
-          file_pattern: "public/universe.svg"
+          file_pattern: "public/*.svg"

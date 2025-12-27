@@ -3,6 +3,9 @@ import path from "path";
 import { fetchUserProfile, fetchUserRepositories } from "../src/lib/github";
 import { generateUniverse } from "../src/lib/planet-generator";
 import { generateUniverseSVG } from "../src/lib/svg-generator";
+import { generateUniverse3DSVG } from "../src/lib/svg-3d-generator";
+import { generateCityscapeSVG } from "../src/lib/cityscape-generator";
+
 
 async function main() {
     try {
@@ -26,6 +29,17 @@ async function main() {
         fs.writeFileSync(outputPath, svg);
 
         console.log(`Universe SVG saved to ${outputPath}`);
+
+        const svg3d = generateUniverse3DSVG(user, planets);
+        const outputPath3d = path.join(process.cwd(), "public", "universe-3d.svg");
+        fs.writeFileSync(outputPath3d, svg3d);
+        console.log(`Universe 3D SVG saved to ${outputPath3d}`);
+
+        const cityscape = generateCityscapeSVG(user, planets);
+        const outputPathCity = path.join(process.cwd(), "public", "cityscape.svg");
+        fs.writeFileSync(outputPathCity, cityscape);
+        console.log(`Cityscape SVG saved to ${outputPathCity}`);
+
     } catch (error) {
         console.error("Failed to generate universe:", error);
         process.exit(1);
