@@ -99,12 +99,12 @@
 
             <!-- Planet Visual -->
             <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank" style="cursor: pointer;">
-                <circle r="36.44191677002597" fill="url(#planetGrad3D-0)">
+                <circle r="36.479184330021646" fill="url(#planetGrad3D-0)">
                     <title>repo-verse (TypeScript)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="36.44191677002597" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
+                <circle r="36.479184330021646" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -513,12 +513,12 @@
 
             <!-- Planet Visual -->
             <a href="https://github.com/nimaldanyathk/nimaldanyathk" target="_blank" style="cursor: pointer;">
-                <circle r="45.70878761062786" fill="url(#planetGrad3D-6)">
+                <circle r="45.74106729912163" fill="url(#planetGrad3D-6)">
                     <title>nimaldanyathk (null)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="45.70878761062786" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3" />
+                <circle r="45.74106729912163" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -666,12 +666,12 @@
       </g>
     
 
-      <!-- Planet: arx-net -->
+      <!-- Planet: user_docs -->
       <g>
         <defs>
           <radialGradient id="planetGrad3D-9" cx="30%" cy="30%" r="70%">
-            <stop offset="0%" stop-color="#3178C6" stop-opacity="1" />
-            <stop offset="50%" stop-color="#3178C6" stop-opacity="0.8" />
+            <stop offset="0%" stop-color="#808080" stop-opacity="1" />
+            <stop offset="50%" stop-color="#808080" stop-opacity="0.8" />
             <stop offset="100%" stop-color="#000" stop-opacity="1" />
           </radialGradient>
         </defs>
@@ -719,13 +719,13 @@
             />
 
             <!-- Planet Visual -->
-            <a href="https://github.com/nimaldanyathk/arx-net" target="_blank" style="cursor: pointer;">
-                <circle r="40.32267165907284" fill="url(#planetGrad3D-9)">
-                    <title>arx-net (TypeScript)</title>
+            <a href="https://github.com/nimaldanyathk/user_docs" target="_blank" style="cursor: pointer;">
+                <circle r="53.821071922268224" fill="url(#planetGrad3D-9)">
+                    <title>user_docs (null)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="40.32267165907284" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
+                <circle r="53.821071922268224" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -742,7 +742,7 @@
         <animate attributeName="opacity" values="1; 1; 0; 0" keyTimes="0; 0.099; 0.1; 1" dur="40s" repeatCount="indefinite" />
         <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 6</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 240kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 243kb</text>
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
             <animate attributeName="width" values="0;200" begin="0s" dur="4s" fill="freeze" />
         </rect>
@@ -808,7 +808,7 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6; 0.601; 0.699; 0.7; 1" dur="40s" repeatCount="indefinite" />
         <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> nimaldanyathk</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 5269kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 5326kb</text>
         <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
             <animate attributeName="width" values="0;200" begin="24s" dur="4s" fill="freeze" />
         </rect>
@@ -839,10 +839,10 @@
 
       <g opacity="0">
         <animate attributeName="opacity" values="0; 0; 1; 1" keyTimes="0; 0.9; 0.901; 1" dur="40s" repeatCount="indefinite" />
-        <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> arx-net</text>
-        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 875kb</text>
-        <rect x="20" y="565" width="0" height="2" fill="#00FF94">
+        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> user_docs</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 0</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 78723kb</text>
+        <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
             <animate attributeName="width" values="0;200" begin="36s" dur="4s" fill="freeze" />
         </rect>
       </g>
