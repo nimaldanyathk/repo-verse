@@ -99,12 +99,12 @@
 
             <!-- Planet Visual -->
             <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank" style="cursor: pointer;">
-                <circle r="37.48683685283062" fill="url(#planetGrad3D-0)">
+                <circle r="36.54028623849494" fill="url(#planetGrad3D-0)">
                     <title>repo-verse (TypeScript)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="37.48683685283062" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
+                <circle r="36.54028623849494" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -513,12 +513,12 @@
 
             <!-- Planet Visual -->
             <a href="https://github.com/nimaldanyathk/nimaldanyathk" target="_blank" style="cursor: pointer;">
-                <circle r="46.105037213118706" fill="url(#planetGrad3D-6)">
+                <circle r="46.13334165216063" fill="url(#planetGrad3D-6)">
                     <title>nimaldanyathk (null)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="46.105037213118706" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3" />
+                <circle r="46.13334165216063" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -742,7 +742,7 @@
         <animate attributeName="opacity" values="1; 1; 0; 0" keyTimes="0; 0.099; 0.1; 1" dur="40s" repeatCount="indefinite" />
         <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 6</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 340kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 248kb</text>
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
             <animate attributeName="width" values="0;200" begin="0s" dur="4s" fill="freeze" />
         </rect>
@@ -808,7 +808,7 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6; 0.601; 0.699; 0.7; 1" dur="40s" repeatCount="indefinite" />
         <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> nimaldanyathk</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 6013kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 6070kb</text>
         <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
             <animate attributeName="width" values="0;200" begin="24s" dur="4s" fill="freeze" />
         </rect>
