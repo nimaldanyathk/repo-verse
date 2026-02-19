@@ -99,12 +99,12 @@
 
             <!-- Planet Visual -->
             <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank" style="cursor: pointer;">
-                <circle r="37.599404170799886" fill="url(#planetGrad3D-0)">
+                <circle r="37.73238993212158" fill="url(#planetGrad3D-0)">
                     <title>repo-verse (TypeScript)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="37.599404170799886" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
+                <circle r="37.73238993212158" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -513,12 +513,12 @@
 
             <!-- Planet Visual -->
             <a href="https://github.com/nimaldanyathk/nimaldanyathk" target="_blank" style="cursor: pointer;">
-                <circle r="46.616199540225026" fill="url(#planetGrad3D-6)">
+                <circle r="46.64259082960207" fill="url(#planetGrad3D-6)">
                     <title>nimaldanyathk (null)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="46.616199540225026" fill="none" stroke="#FF4500" stroke-width="2" opacity="0.3" />
+                <circle r="46.64259082960207" fill="none" stroke="#FF4500" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -720,12 +720,12 @@
 
             <!-- Planet Visual -->
             <a href="https://github.com/nimaldanyathk/Othello_DAA_Project" target="_blank" style="cursor: pointer;">
-                <circle r="34.15549661388528" fill="url(#planetGrad3D-9)">
+                <circle r="34.38737163679022" fill="url(#planetGrad3D-9)">
                     <title>Othello_DAA_Project (Python)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="34.15549661388528" fill="none" stroke="#00C2FF" stroke-width="2" opacity="0.3" />
+                <circle r="34.38737163679022" fill="none" stroke="#00C2FF" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -742,7 +742,7 @@
         <animate attributeName="opacity" values="1; 1; 0; 0" keyTimes="0; 0.099; 0.1; 1" dur="40s" repeatCount="indefinite" />
         <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 6</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 353kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 369kb</text>
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
             <animate attributeName="width" values="0;200" begin="0s" dur="4s" fill="freeze" />
         </rect>
@@ -808,7 +808,7 @@
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6; 0.601; 0.699; 0.7; 1" dur="40s" repeatCount="indefinite" />
         <text x="20" y="520" fill="#FF4500" font-family="Courier New, monospace" font-size="16" font-weight="bold">> nimaldanyathk</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: STRESSED | SIZE: 7130kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: STRESSED | SIZE: 7193kb</text>
         <rect x="20" y="565" width="0" height="2" fill="#FF4500">
             <animate attributeName="width" values="0;200" begin="24s" dur="4s" fill="freeze" />
         </rect>
@@ -841,7 +841,7 @@
         <animate attributeName="opacity" values="0; 0; 1; 1" keyTimes="0; 0.9; 0.901; 1" dur="40s" repeatCount="indefinite" />
         <text x="20" y="520" fill="#00C2FF" font-family="Courier New, monospace" font-size="16" font-weight="bold">> Othello_DAA_Project</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: Python | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: CALM | SIZE: 112kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: CALM | SIZE: 121kb</text>
         <rect x="20" y="565" width="0" height="2" fill="#00C2FF">
             <animate attributeName="width" values="0;200" begin="36s" dur="4s" fill="freeze" />
         </rect>
