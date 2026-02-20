@@ -99,12 +99,12 @@
 
             <!-- Planet Visual -->
             <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank" style="cursor: pointer;">
-                <circle r="37.73238993212158" fill="url(#planetGrad3D-0)">
+                <circle r="37.748606187822304" fill="url(#planetGrad3D-0)">
                     <title>repo-verse (TypeScript)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="37.73238993212158" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
+                <circle r="37.748606187822304" fill="none" stroke="#00FF94" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -459,12 +459,12 @@
       </g>
     
 
-      <!-- Planet: nimaldanyathk -->
+      <!-- Planet: Othello_DAA_Project -->
       <g>
         <defs>
           <radialGradient id="planetGrad3D-6" cx="30%" cy="30%" r="70%">
-            <stop offset="0%" stop-color="#808080" stop-opacity="1" />
-            <stop offset="50%" stop-color="#808080" stop-opacity="0.8" />
+            <stop offset="0%" stop-color="#3776AB" stop-opacity="1" />
+            <stop offset="50%" stop-color="#3776AB" stop-opacity="0.8" />
             <stop offset="100%" stop-color="#000" stop-opacity="1" />
           </radialGradient>
         </defs>
@@ -512,13 +512,13 @@
             />
 
             <!-- Planet Visual -->
-            <a href="https://github.com/nimaldanyathk/nimaldanyathk" target="_blank" style="cursor: pointer;">
-                <circle r="46.64259082960207" fill="url(#planetGrad3D-6)">
-                    <title>nimaldanyathk (null)</title>
+            <a href="https://github.com/nimaldanyathk/Othello_DAA_Project" target="_blank" style="cursor: pointer;">
+                <circle r="34.67104738466526" fill="url(#planetGrad3D-6)">
+                    <title>Othello_DAA_Project (Python)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="46.64259082960207" fill="none" stroke="#FF4500" stroke-width="2" opacity="0.3" />
+                <circle r="34.67104738466526" fill="none" stroke="#00C2FF" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -528,7 +528,7 @@
       </g>
     
 
-      <!-- Planet: E-HealthCare-Management-System -->
+      <!-- Planet: nimaldanyathk -->
       <g>
         <defs>
           <radialGradient id="planetGrad3D-7" cx="30%" cy="30%" r="70%">
@@ -581,13 +581,13 @@
             />
 
             <!-- Planet Visual -->
-            <a href="https://github.com/nimaldanyathk/E-HealthCare-Management-System" target="_blank" style="cursor: pointer;">
-                <circle r="42.339755297473175" fill="url(#planetGrad3D-7)">
-                    <title>E-HealthCare-Management-System (null)</title>
+            <a href="https://github.com/nimaldanyathk/nimaldanyathk" target="_blank" style="cursor: pointer;">
+                <circle r="46.66875197538492" fill="url(#planetGrad3D-7)">
+                    <title>nimaldanyathk (null)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="42.339755297473175" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3" />
+                <circle r="46.66875197538492" fill="none" stroke="#FF4500" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -597,7 +597,7 @@
       </g>
     
 
-      <!-- Planet: react-bits -->
+      <!-- Planet: E-HealthCare-Management-System -->
       <g>
         <defs>
           <radialGradient id="planetGrad3D-8" cx="30%" cy="30%" r="70%">
@@ -650,13 +650,13 @@
             />
 
             <!-- Planet Visual -->
-            <a href="https://github.com/nimaldanyathk/react-bits" target="_blank" style="cursor: pointer;">
-                <circle r="50.41211960114672" fill="url(#planetGrad3D-8)">
-                    <title>react-bits (null)</title>
+            <a href="https://github.com/nimaldanyathk/E-HealthCare-Management-System" target="_blank" style="cursor: pointer;">
+                <circle r="42.339755297473175" fill="url(#planetGrad3D-8)">
+                    <title>E-HealthCare-Management-System (null)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="50.41211960114672" fill="none" stroke="#FF4500" stroke-width="2" opacity="0.3" />
+                <circle r="42.339755297473175" fill="none" stroke="#FF00E6" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -666,12 +666,12 @@
       </g>
     
 
-      <!-- Planet: Othello_DAA_Project -->
+      <!-- Planet: react-bits -->
       <g>
         <defs>
           <radialGradient id="planetGrad3D-9" cx="30%" cy="30%" r="70%">
-            <stop offset="0%" stop-color="#3776AB" stop-opacity="1" />
-            <stop offset="50%" stop-color="#3776AB" stop-opacity="0.8" />
+            <stop offset="0%" stop-color="#808080" stop-opacity="1" />
+            <stop offset="50%" stop-color="#808080" stop-opacity="0.8" />
             <stop offset="100%" stop-color="#000" stop-opacity="1" />
           </radialGradient>
         </defs>
@@ -719,13 +719,13 @@
             />
 
             <!-- Planet Visual -->
-            <a href="https://github.com/nimaldanyathk/Othello_DAA_Project" target="_blank" style="cursor: pointer;">
-                <circle r="34.38737163679022" fill="url(#planetGrad3D-9)">
-                    <title>Othello_DAA_Project (Python)</title>
+            <a href="https://github.com/nimaldanyathk/react-bits" target="_blank" style="cursor: pointer;">
+                <circle r="50.41211960114672" fill="url(#planetGrad3D-9)">
+                    <title>react-bits (null)</title>
                 </circle>
                 
                 <!-- Atmosphere/Glow -->
-                <circle r="34.38737163679022" fill="none" stroke="#00C2FF" stroke-width="2" opacity="0.3" />
+                <circle r="50.41211960114672" fill="none" stroke="#FF4500" stroke-width="2" opacity="0.3" />
                 
                 <!-- Texture: Ring -->
                 
@@ -742,7 +742,7 @@
         <animate attributeName="opacity" values="1; 1; 0; 0" keyTimes="0; 0.099; 0.1; 1" dur="40s" repeatCount="indefinite" />
         <text x="20" y="520" fill="#00FF94" font-family="Courier New, monospace" font-size="16" font-weight="bold">> repo-verse</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: TypeScript | STARS: 6</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 369kb</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: FOCUSED | SIZE: 371kb</text>
         <rect x="20" y="565" width="0" height="2" fill="#00FF94">
             <animate attributeName="width" values="0;200" begin="0s" dur="4s" fill="freeze" />
         </rect>
@@ -806,10 +806,10 @@
 
       <g opacity="0">
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.6; 0.601; 0.699; 0.7; 1" dur="40s" repeatCount="indefinite" />
-        <text x="20" y="520" fill="#FF4500" font-family="Courier New, monospace" font-size="16" font-weight="bold">> nimaldanyathk</text>
-        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: STRESSED | SIZE: 7193kb</text>
-        <rect x="20" y="565" width="0" height="2" fill="#FF4500">
+        <text x="20" y="520" fill="#00C2FF" font-family="Courier New, monospace" font-size="16" font-weight="bold">> Othello_DAA_Project</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: Python | STARS: 1</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: CALM | SIZE: 133kb</text>
+        <rect x="20" y="565" width="0" height="2" fill="#00C2FF">
             <animate attributeName="width" values="0;200" begin="24s" dur="4s" fill="freeze" />
         </rect>
       </g>
@@ -817,10 +817,10 @@
 
       <g opacity="0">
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.7; 0.701; 0.799; 0.8; 1" dur="40s" repeatCount="indefinite" />
-        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> E-HealthCare-Management-System</text>
+        <text x="20" y="520" fill="#FF4500" font-family="Courier New, monospace" font-size="16" font-weight="bold">> nimaldanyathk</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 1714kb</text>
-        <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: STRESSED | SIZE: 7256kb</text>
+        <rect x="20" y="565" width="0" height="2" fill="#FF4500">
             <animate attributeName="width" values="0;200" begin="28s" dur="4s" fill="freeze" />
         </rect>
       </g>
@@ -828,10 +828,10 @@
 
       <g opacity="0">
         <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.8; 0.801; 0.899; 0.9; 1" dur="40s" repeatCount="indefinite" />
-        <text x="20" y="520" fill="#FF4500" font-family="Courier New, monospace" font-size="16" font-weight="bold">> react-bits</text>
+        <text x="20" y="520" fill="#FF00E6" font-family="Courier New, monospace" font-size="16" font-weight="bold">> E-HealthCare-Management-System</text>
         <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: STRESSED | SIZE: 25270kb</text>
-        <rect x="20" y="565" width="0" height="2" fill="#FF4500">
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: ENERGETIC | SIZE: 1714kb</text>
+        <rect x="20" y="565" width="0" height="2" fill="#FF00E6">
             <animate attributeName="width" values="0;200" begin="32s" dur="4s" fill="freeze" />
         </rect>
       </g>
@@ -839,10 +839,10 @@
 
       <g opacity="0">
         <animate attributeName="opacity" values="0; 0; 1; 1" keyTimes="0; 0.9; 0.901; 1" dur="40s" repeatCount="indefinite" />
-        <text x="20" y="520" fill="#00C2FF" font-family="Courier New, monospace" font-size="16" font-weight="bold">> Othello_DAA_Project</text>
-        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: Python | STARS: 0</text>
-        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: CALM | SIZE: 121kb</text>
-        <rect x="20" y="565" width="0" height="2" fill="#00C2FF">
+        <text x="20" y="520" fill="#FF4500" font-family="Courier New, monospace" font-size="16" font-weight="bold">> react-bits</text>
+        <text x="20" y="540" fill="#ccc" font-family="Courier New, monospace" font-size="12">LANG: N/A | STARS: 1</text>
+        <text x="20" y="555" fill="#ccc" font-family="Courier New, monospace" font-size="12">MOOD: STRESSED | SIZE: 25270kb</text>
+        <rect x="20" y="565" width="0" height="2" fill="#FF4500">
             <animate attributeName="width" values="0;200" begin="36s" dur="4s" fill="freeze" />
         </rect>
       </g>
