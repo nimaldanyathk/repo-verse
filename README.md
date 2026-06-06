@@ -4,7 +4,7 @@
 
 RepoVerse is a cosmic engine that visualizes your code repositories as planets orbiting a central sun (you!). It generates an animated SVG that you can embed directly into your GitHub Profile README.
 
-![Preview](./public/universe.svg)
+![Preview](./public/universe-3d.svg)
 
 ## Features
 
@@ -40,8 +40,8 @@ RepoVerse is a cosmic engine that visualizes your code repositories as planets o
 ![My Repos](https://raw.githubusercontent.com/YOUR_USERNAME/repo-verse/main/public/modern.svg)
 ```
 
-**Universe 3D (Solar System):**
-<img src="./public/universe-3d.svg" width="400" alt="3D Universe" />
+**Universe(Solar System):**
+<img src="./public/universe.svg" width="400" alt="3D Universe" />
 
 ```markdown
 ![My Universe](https://raw.githubusercontent.com/YOUR_USERNAME/repo-verse/main/public/universe-3d.svg)
