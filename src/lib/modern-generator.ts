@@ -47,7 +47,10 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
         return `
             <a href="${repo.html_url}" target="_blank">
                 <g class="card" transform="translate(${x}, ${y})">
-                    <rect width="${cardW}" height="${cardH}" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+                    <!-- Liquid Glass Effect -->
+                    <rect width="${cardW}" height="${cardH}" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
+                    <!-- Inner highlight for glass -->
+                    <rect width="${cardW}" height="${cardH}" rx="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
                     
                     <!-- Language Dot -->
                     <circle cx="15" cy="20" r="4" fill="${color}" />
@@ -83,6 +86,17 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
     <linearGradient id="bgInfo" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <!-- Liquid Glass Styles -->
+    <linearGradient id="glass-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)" />
+      <stop offset="40%" stop-color="rgba(255,255,255,0.02)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.08)" />
+    </linearGradient>
+    <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.4)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)" />
     </linearGradient>
     <mask id="round">
        <rect width="${width}" height="${height}" rx="12" fill="white" />
