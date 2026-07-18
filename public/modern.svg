@@ -1,5 +1,23 @@
 <svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <style>
+      .card-glass {
+        transition: transform 0.3s ease;
+      }
+      .card-wrapper:hover .card-glass {
+        transform: translateY(-5px) scale(1.02);
+      }
+      .shine {
+        animation: shine 5s infinite linear;
+      }
+      @keyframes shine {
+        0% { transform: skewX(-20deg) translateX(-150px); opacity: 0; }
+        5% { opacity: 0.6; }
+        15% { transform: skewX(-20deg) translateX(278.75px); opacity: 0; }
+        100% { transform: skewX(-20deg) translateX(278.75px); opacity: 0; }
+      }
+    </style>
+    
     <linearGradient id="bgInfo" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#1e293b" />
@@ -15,6 +33,14 @@
       <stop offset="0%" stop-color="rgba(255,255,255,0.4)" />
       <stop offset="100%" stop-color="rgba(255,255,255,0.05)" />
     </linearGradient>
+    <linearGradient id="shine-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="50%" stop-color="rgba(255,255,255,0.4)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+    <clipPath id="card-clip">
+      <rect width="128.75" height="100" rx="8" />
+    </clipPath>
     <mask id="round">
        <rect width="600" height="200" rx="12" fill="white" />
     </mask>
@@ -43,11 +69,17 @@
   <!-- Cards Container -->
   
             <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank">
-                <g class="card" transform="translate(20, 70)">
+                <g class="card-wrapper" transform="translate(20, 70)">
+                    <g class="card-glass" style="transform-origin: 64.375px 50px;">
                     <!-- Liquid Glass Effect -->
                     <rect width="128.75" height="100" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
                     <rect width="128.75" height="100" rx="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                    
+                    <!-- Animated Shine -->
+                    <g clip-path="url(#card-clip)">
+                       <rect class="shine" x="-100" y="-50" width="30" height="200" fill="url(#shine-gradient)" />
+                    </g>
                     
                     <!-- Language Dot -->
                     <circle cx="15" cy="20" r="4" fill="#3178C6" />
@@ -72,16 +104,23 @@
                         <!-- Forks -->
                         <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 4</text>
                     </g>
+                    </g>
                 </g>
             </a>
         
 
             <a href="https://github.com/nimaldanyathk/Semicolon-Embedded-C-Project" target="_blank">
-                <g class="card" transform="translate(163.75, 70)">
+                <g class="card-wrapper" transform="translate(163.75, 70)">
+                    <g class="card-glass" style="transform-origin: 64.375px 50px;">
                     <!-- Liquid Glass Effect -->
                     <rect width="128.75" height="100" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
                     <rect width="128.75" height="100" rx="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                    
+                    <!-- Animated Shine -->
+                    <g clip-path="url(#card-clip)">
+                       <rect class="shine" x="-100" y="-50" width="30" height="200" fill="url(#shine-gradient)" />
+                    </g>
                     
                     <!-- Language Dot -->
                     <circle cx="15" cy="20" r="4" fill="#A8B9CC" />
@@ -106,16 +145,23 @@
                         <!-- Forks -->
                         <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 1</text>
                     </g>
+                    </g>
                 </g>
             </a>
         
 
             <a href="https://github.com/nimaldanyathk/sparkd" target="_blank">
-                <g class="card" transform="translate(307.5, 70)">
+                <g class="card-wrapper" transform="translate(307.5, 70)">
+                    <g class="card-glass" style="transform-origin: 64.375px 50px;">
                     <!-- Liquid Glass Effect -->
                     <rect width="128.75" height="100" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
                     <rect width="128.75" height="100" rx="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                    
+                    <!-- Animated Shine -->
+                    <g clip-path="url(#card-clip)">
+                       <rect class="shine" x="-100" y="-50" width="30" height="200" fill="url(#shine-gradient)" />
+                    </g>
                     
                     <!-- Language Dot -->
                     <circle cx="15" cy="20" r="4" fill="#F7DF1E" />
@@ -140,16 +186,23 @@
                         <!-- Forks -->
                         <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 1</text>
                     </g>
+                    </g>
                 </g>
             </a>
         
 
             <a href="https://github.com/nimaldanyathk/TheInspirationalBoat" target="_blank">
-                <g class="card" transform="translate(451.25, 70)">
+                <g class="card-wrapper" transform="translate(451.25, 70)">
+                    <g class="card-glass" style="transform-origin: 64.375px 50px;">
                     <!-- Liquid Glass Effect -->
                     <rect width="128.75" height="100" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
                     <rect width="128.75" height="100" rx="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                    
+                    <!-- Animated Shine -->
+                    <g clip-path="url(#card-clip)">
+                       <rect class="shine" x="-100" y="-50" width="30" height="200" fill="url(#shine-gradient)" />
+                    </g>
                     
                     <!-- Language Dot -->
                     <circle cx="15" cy="20" r="4" fill="#E34F26" />
@@ -173,6 +226,7 @@
 
                         <!-- Forks -->
                         <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ 0</text>
+                    </g>
                     </g>
                 </g>
             </a>

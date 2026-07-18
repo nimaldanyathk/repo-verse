@@ -46,11 +46,17 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
 
         return `
             <a href="${repo.html_url}" target="_blank">
-                <g class="card" transform="translate(${x}, ${y})">
+                <g class="card-wrapper" transform="translate(${x}, ${y})">
+                    <g class="card-glass" style="transform-origin: ${cardW/2}px ${cardH/2}px;">
                     <!-- Liquid Glass Effect -->
                     <rect width="${cardW}" height="${cardH}" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
                     <rect width="${cardW}" height="${cardH}" rx="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                    
+                    <!-- Animated Shine -->
+                    <g clip-path="url(#card-clip)">
+                       <rect class="shine" x="-100" y="-50" width="30" height="${cardH * 2}" fill="url(#shine-gradient)" />
+                    </g>
                     
                     <!-- Language Dot -->
                     <circle cx="15" cy="20" r="4" fill="${color}" />
@@ -75,6 +81,7 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
                         <!-- Forks -->
                         <text x="50" y="8" fill="#ccc" font-family="Segoe UI, sans-serif" font-size="10">⑂ ${repo.forks_count}</text>
                     </g>
+                    </g>
                 </g>
             </a>
         `;
@@ -83,6 +90,24 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
     return `
 <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <style>
+      .card-glass {
+        transition: transform 0.3s ease;
+      }
+      .card-wrapper:hover .card-glass {
+        transform: translateY(-5px) scale(1.02);
+      }
+      .shine {
+        animation: shine 5s infinite linear;
+      }
+      @keyframes shine {
+        0% { transform: skewX(-20deg) translateX(-150px); opacity: 0; }
+        5% { opacity: 0.6; }
+        15% { transform: skewX(-20deg) translateX(${cardW + 150}px); opacity: 0; }
+        100% { transform: skewX(-20deg) translateX(${cardW + 150}px); opacity: 0; }
+      }
+    </style>
+    
     <linearGradient id="bgInfo" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#1e293b" />
@@ -98,6 +123,14 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
       <stop offset="0%" stop-color="rgba(255,255,255,0.4)" />
       <stop offset="100%" stop-color="rgba(255,255,255,0.05)" />
     </linearGradient>
+    <linearGradient id="shine-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="50%" stop-color="rgba(255,255,255,0.4)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+    <clipPath id="card-clip">
+      <rect width="${cardW}" height="${cardH}" rx="8" />
+    </clipPath>
     <mask id="round">
        <rect width="${width}" height="${height}" rx="12" fill="white" />
     </mask>
