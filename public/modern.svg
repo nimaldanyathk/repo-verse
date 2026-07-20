@@ -38,6 +38,9 @@
       <stop offset="50%" stop-color="rgba(255,255,255,0.4)" />
       <stop offset="100%" stop-color="rgba(255,255,255,0)" />
     </linearGradient>
+    <filter id="glow-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
     <clipPath id="card-clip">
       <rect width="128.75" height="100" rx="8" />
     </clipPath>
@@ -71,6 +74,9 @@
             <a href="https://github.com/nimaldanyathk/repo-verse" target="_blank">
                 <g class="card-wrapper" transform="translate(20, 70)">
                     <g class="card-glass" style="transform-origin: 64.375px 50px;">
+                        <!-- Mood Ring / Glow Shadow -->
+                        <rect width="128.75" height="100" rx="8" fill="#3178C6" opacity="0.25" filter="url(#glow-shadow)" transform="translate(0, 4)" />
+                        
                     <!-- Liquid Glass Effect -->
                     <rect width="128.75" height="100" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
@@ -112,6 +118,9 @@
             <a href="https://github.com/nimaldanyathk/Semicolon-Embedded-C-Project" target="_blank">
                 <g class="card-wrapper" transform="translate(163.75, 70)">
                     <g class="card-glass" style="transform-origin: 64.375px 50px;">
+                        <!-- Mood Ring / Glow Shadow -->
+                        <rect width="128.75" height="100" rx="8" fill="#A8B9CC" opacity="0.25" filter="url(#glow-shadow)" transform="translate(0, 4)" />
+                        
                     <!-- Liquid Glass Effect -->
                     <rect width="128.75" height="100" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
@@ -153,6 +162,9 @@
             <a href="https://github.com/nimaldanyathk/sparkd" target="_blank">
                 <g class="card-wrapper" transform="translate(307.5, 70)">
                     <g class="card-glass" style="transform-origin: 64.375px 50px;">
+                        <!-- Mood Ring / Glow Shadow -->
+                        <rect width="128.75" height="100" rx="8" fill="#F7DF1E" opacity="0.25" filter="url(#glow-shadow)" transform="translate(0, 4)" />
+                        
                     <!-- Liquid Glass Effect -->
                     <rect width="128.75" height="100" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
@@ -194,6 +206,9 @@
             <a href="https://github.com/nimaldanyathk/TheInspirationalBoat" target="_blank">
                 <g class="card-wrapper" transform="translate(451.25, 70)">
                     <g class="card-glass" style="transform-origin: 64.375px 50px;">
+                        <!-- Mood Ring / Glow Shadow -->
+                        <rect width="128.75" height="100" rx="8" fill="#E34F26" opacity="0.25" filter="url(#glow-shadow)" transform="translate(0, 4)" />
+                        
                     <!-- Liquid Glass Effect -->
                     <rect width="128.75" height="100" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->

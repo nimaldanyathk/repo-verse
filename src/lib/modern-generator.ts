@@ -48,6 +48,9 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
             <a href="${repo.html_url}" target="_blank">
                 <g class="card-wrapper" transform="translate(${x}, ${y})">
                     <g class="card-glass" style="transform-origin: ${cardW/2}px ${cardH/2}px;">
+                        <!-- Mood Ring / Glow Shadow -->
+                        <rect width="${cardW}" height="${cardH}" rx="8" fill="${color}" opacity="0.25" filter="url(#glow-shadow)" transform="translate(0, 4)" />
+                        
                     <!-- Liquid Glass Effect -->
                     <rect width="${cardW}" height="${cardH}" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
                     <!-- Inner highlight for glass -->
@@ -128,6 +131,9 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
       <stop offset="50%" stop-color="rgba(255,255,255,0.4)" />
       <stop offset="100%" stop-color="rgba(255,255,255,0)" />
     </linearGradient>
+    <filter id="glow-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
     <clipPath id="card-clip">
       <rect width="${cardW}" height="${cardH}" rx="8" />
     </clipPath>
