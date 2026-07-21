@@ -137,6 +137,9 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
     <clipPath id="card-clip">
       <rect width="${cardW}" height="${cardH}" rx="8" />
     </clipPath>
+    <clipPath id="avatar-clip">
+      <circle cx="20" cy="20" r="20" />
+    </clipPath>
     <mask id="round">
        <rect width="${width}" height="${height}" rx="12" fill="white" />
     </mask>
@@ -157,7 +160,7 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
 
   <!-- User Info Header -->
   <g transform="translate(20, 20)">
-     <image href="${user.avatarUrl}" x="0" y="0" width="40" height="40" clip-path="circle(20px at 20px 20px)" />
+     <image href="${user.avatarUrl}" xlink:href="${user.avatarUrl}" x="0" y="0" width="40" height="40" clip-path="url(#avatar-clip)" />
      <text x="50" y="18" fill="#fff" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold">${user.name}</text>
      <text x="50" y="36" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="12">@${user.username} • ${user.publicRepos} Repositories • ${user.followers} Followers</text>
   </g>
