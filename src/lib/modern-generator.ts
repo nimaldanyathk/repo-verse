@@ -115,7 +115,7 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
     }).join("\n");
 
     return `
-<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
+<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <style>
       .card-glass {
