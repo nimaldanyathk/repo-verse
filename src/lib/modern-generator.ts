@@ -41,8 +41,34 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
         const y = cardY;
         const color = langColors[repo.language || ""] || "#999";
 
-        // Truncate desc
-        const desc = (repo.description || "No description provided.").slice(0, 50) + (repo.description && repo.description.length > 50 ? "..." : "");
+        // Truncate desc into max 3 lines of ~18 characters
+        function splitText(text: string, maxLen: number) {
+            if (!text) return ["No description provided."];
+            const words = text.split(" ");
+            let lines = [];
+            let currentLine = "";
+            for (const word of words) {
+                if ((currentLine + " " + word).length <= maxLen) {
+                    currentLine += (currentLine ? " " : "") + word;
+                } else {
+                    if (currentLine) lines.push(currentLine);
+                    currentLine = word;
+                }
+            }
+            if (currentLine) lines.push(currentLine);
+            return lines;
+        }
+        
+        let descLines = splitText(repo.description || "No description provided.", 22);
+        if (descLines.length > 3) {
+            descLines = descLines.slice(0, 3);
+            descLines[2] = descLines[2].slice(0, 19) + "...";
+        }
+        
+        const descTextSvg = descLines.map((line, idx) => `<tspan x="15" dy="${idx === 0 ? 0 : 12}">${line}</tspan>`).join('');
+        
+        // Truncate name
+        const displayName = repo.name.length > 14 ? repo.name.slice(0, 12) + "..." : repo.name;
 
         return `
             <a href="${repo.html_url}" target="_blank">
@@ -51,28 +77,26 @@ export function generateModernSVG(user: UserProfile, planets: PlanetData[]): str
                         <!-- Mood Ring / Glow Shadow -->
                         <rect width="${cardW}" height="${cardH}" rx="8" fill="${color}" opacity="0.25" filter="url(#glow-shadow)" transform="translate(0, 4)" />
                         
-                    <!-- Liquid Glass Effect -->
-                    <rect width="${cardW}" height="${cardH}" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
-                    <!-- Inner highlight for glass -->
-                    <rect width="${cardW}" height="${cardH}" rx="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
-                    
-                    <!-- Animated Shine -->
-                    <g clip-path="url(#card-clip)">
-                       <rect class="shine" x="-100" y="-50" width="30" height="${cardH * 2}" fill="url(#shine-gradient)" />
-                    </g>
+                        <!-- Liquid Glass Effect -->
+                        <rect width="${cardW}" height="${cardH}" rx="8" fill="url(#glass-gradient)" stroke="url(#glass-border)" stroke-width="1.5" />
+                        <!-- Inner highlight for glass -->
+                        <rect width="${cardW}" height="${cardH}" rx="8" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                        
+                        <!-- Animated Shine -->
+                        <g clip-path="url(#card-clip)">
+                           <rect class="shine" x="-100" y="-50" width="30" height="${cardH * 2}" fill="url(#shine-gradient)" />
+                        </g>
                     
                     <!-- Language Dot -->
                     <circle cx="15" cy="20" r="4" fill="${color}" />
                     
                     <!-- Name -->
-                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">${repo.name}</text>
+                    <text x="25" y="24" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">${displayName}</text>
                     
                     <!-- Desc -->
-                    <foreignObject x="10" y="35" width="${cardW - 20}" height="40">
-                        <div xmlns="http://www.w3.org/1999/xhtml" style="color: #aaa; font-family: Segoe UI, sans-serif; font-size: 10px; line-height: 1.2; overflow: hidden;">
-                            ${desc}
-                        </div>
-                    </foreignObject>
+                    <text x="15" y="42" fill="#aaa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10">
+                        ${descTextSvg}
+                    </text>
 
                     <!-- Stats Row -->
                     <g transform="translate(10, 85)">
